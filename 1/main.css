@@ -1,0 +1,34 @@
+.container {
+	width: 1180px;
+	height: 527px;
+	background-image: url("resources/background.png");
+}
+.row {
+}
+.placeholder {
+	float: left;
+}
+.image {
+	float: left;
+}
+.placeholder-60 {
+	height: 135px;
+}
+.placeholder-60b {
+	height: 165px;
+}
+.header {
+	height: 10px
+}
+.column-1 {
+	
+}
+.column-2 {
+	float: left;
+	width: 1090px;
+}
+body {
+	background-color: beige;
+}
+link-table {
+}
