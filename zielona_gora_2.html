@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <!-- HTML properties -->
+    <head>
+        <!-- Basic properties -->
+        <title>Plany Drogerii - Silcare - Zielona Góra [2]</title>
+        <meta charset="utf-8">
+        <meta name="author" content="TPE Studio">
+        <meta name="description" content="Strona Internetowa pokazująca plany różnych drogerii Silcare.">
+        <!-- OG properties -->
+        <meta name="og:image" content="resources/og_image.png">
+        <meta name="og:description" content="Strona Internetowa pokazująca plany różnych drogerii Silcare.">
+        <meta name="og:title" content="Plany Drogerii - Silcare - Zielona Góra [2]">
+        <!-- Icons -->
+        <link rel="shortcut icon" href="resources/icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="resources/apple_144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="resources/apple_114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="resources/apple_72.png">
+        <link rel="apple-touch-icon-precomposed" href="resources/mobile.png">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <!-- Other properties -->
+        <html lang="pl-PL">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <!-- HTML body -->
+    <body>
+        <!-- Main contener div -->
+        <div class="drogerie_box">
+            <!-- Title div -->
+            <div class="index_title">
+                <img src="resources/index.html/silcare.png"><p>
+                Plany Drogerii<p>
+                Zielona Góra [4]
+            </div>
+            <!-- Help div -->
+            <div class="drogerie_help">
+                <img src="resources/drogerie/info.png" width=75px height=75px><br><br><br>
+                Żeby pokazać daną szafkę kliknij na dany kształt na planie. Aby pokazać inną kliknij ponownie. Aby wrócić do wyboru drogerii kliknij w przycisk powrotu (strzałka). Odświeżenie strony spowoduje zresetowanie wyboru.
+            </div>
+            <!-- Map box div -->
+            <div class="drogerie_map">
+                <img usemap="#main_map" src="resources/zielona_gora_2.html/main.png"><p>
+                <map name="main_map">
+                    <area shape="rect" coords="186,14,245,66" href="javascript:show1();" alt="s" />
+                    <area shape="rect" coords="257,14,314,53" href="javascript:show2();" alt="s" />
+                    <area shape="rect" coords="320,14,377,53" href="javascript:show3();" alt="s" />
+                    <area shape="rect" coords="392,14,446,66" href="javascript:show4();" alt="s" />
+                    <area shape="rect" coords="455,15,578,83" href="javascript:show5();" alt="s" />
+                    <area shape="rect" coords="588,16,709,82" href="javascript:show6();" alt="s" />
+                    <area shape="rect" coords="839,12,961,82" href="javascript:show7();" alt="s" />
+                    <area shape="rect" coords="971,12,1090,82" href="javascript:show8();" alt="s" />
+                    <area shape="rect" coords="188,132,245,181" href="javascript:show9();" alt="s" />
+                    <area shape="rect" coords="258,128,375,185" href="javascript:show10();" alt="s" />
+                    <area shape="rect" coords="611,156,667,207" href="javascript:show11();" alt="s" />
+                    <area shape="rect" coords="682,151,797,210" href="javascript:show12();" alt="s" />
+                    <area shape="rect" coords="806,152,923,209" href="javascript:show13();" alt="s" />
+                    <area shape="rect" coords="1099,88,1175,168" href="javascript:show14();" alt="s" />
+                    <area shape="rect" coords="1099,172,1173,251" href="javascript:show15();" alt="s" />
+                    <area shape="rect" coords="1099,259,1172,341" href="javascript:show16();" alt="s" />
+                    <area shape="rect" coords="89,262,179,336" href="javascript:show17();" alt="s" />
+                    <area shape="rect" coords="465,280,521,326" href="javascript:show18();" alt="s" />
+                    <area shape="rect" coords="530,271,646,332" href="javascript:show19();" alt="s" />
+                    <area shape="rect" coords="658,278,771,331" href="javascript:show20();" alt="s" />
+                    <area shape="rect" coords="780,280,896,331" href="javascript:show21();" alt="s" />
+                    <area shape="rect" coords="17,460,88,520" href="javascript:show22();" alt="s" />
+                    <area shape="rect" coords="99,462,162,518" href="javascript:show23();" alt="s" />
+                    <area shape="rect" coords="182,462,254,520" href="javascript:show24();" alt="s" />
+                    <area shape="rect" coords="265,461,336,520" href="javascript:show25();" alt="s" />
+                    <area shape="rect" coords="350,461,422,520" href="javascript:show26();" alt="s" />
+                    <area shape="rect" coords="435,460,503,520" href="javascript:show27();" alt="s" />
+                    <area shape="rect" coords="518,462,587,520" href="javascript:show28();" alt="s" />
+                    <area shape="rect" coords="602,464,670,522" href="javascript:show29();" alt="s" />
+                    <area shape="rect" coords="687,462,753,521" href="javascript:show30();" alt="s" />
+                    <area shape="rect" coords="757,460,838,522" href="javascript:show31();" alt="s" />
+                    <area shape="rect" coords="853,462,922,521" href="javascript:show32();" alt="s" />
+                </map>
+            </div>
+            <div class="drogerie_szafka">
+                <div class="drogerie_image" id="script_image">
+                    &nbsp;
+                </div>
+                <div class="drogerie_text" id="script_text">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="drogerie_back">
+                <a href="index.html">
+                    <img src="resources/drogerie/back.png" width=50px height=50px>
+                </a>
+            </div>
+        </div>
+    </body>
+    <script>
+        let show1 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Kiosk, LCD';
+        }
+        let show2 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Szafka robocza - Tył lady';
+        }
+        let show3 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Szafka robocza - Tył lady';
+        }
+        let show4 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/28.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Aquayo';
+        }
+        let show5 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/29.jpg" width=100% height=50%><p><img src="resources/zielona_gora_2.html/pictures/30_2.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Paznokcie - Oliwki';
+        }
+        let show6 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/30.jpg" width=100% height=50%><p><img src="resources/zielona_gora_2.html/pictures/30_2.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Paznokcie - Odżywki, Lakiery';
+        }
+        let show7 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/31.jpg" width=100% height=50%><p><img src="resources/zielona_gora_2.html/pictures/32_2.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Żele UV<p>- HELP TO, PurLine, Ideal<p>- Affinity<p>- LED<p>- NAILO, Base One<p>- Akryle<p>- Liquidy';
+        }
+        let show8 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/32.jpg" width=100% height=50%><p><img src="resources/zielona_gora_2.html/pictures/32_2.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Żele UV<p>- HELP TO, PurLine, Ideal<p>- Affinity<p>- LED<p>- NAILO, Base One<p>- Akryle<p>- Liquidy';
+        }
+        let show9 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/21.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Szafka Nowość - Okazje - Święta';
+        }
+        let show10 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/24.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Lada';
+        }
+        let show11 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/15.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'PAESE';
+        }
+        let show19 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/18.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Narzędzia, Góra - Żele Kolorowe [Base One]';
+        }
+        let show20 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/19.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Akcesoria, Góra - Oliwki / Żele Kolorowe [Base One]';
+        }
+        let show21 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/18.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Pilniki, Frezy, Nakładki, Góra - Żele Kolorowe [Base One]';
+        }
+        let show14 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/14.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Hybrydy';
+        }
+        let show15 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/13.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Hybrydy';
+        }
+        let show16 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/12.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Hybrydy';
+        }
+        let show13 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/16.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Płyny - Dezynfekcja, Akcesoria, Rękawiczki, Góra - Ozdoby';
+        }
+        let show12 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/16.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Płyny - Dezynfekcja, Akcesoria, Góra - Ozdoby';
+        }
+        let show17 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/20.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Szafka Nowość - Linia So Rose! So Gold!';
+        }
+        let show18 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/17.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Szafka Nowość - Linia Sensual';
+        }
+        let show22 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/1.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Ciało<p>- sole do kąpieli<p>- płyny pod prysznic';
+        }
+        let show23 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/2.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Ciało - Kosmetyka Pielęgnacyjna';
+        }
+        let show24 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/3.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Ciało - Kosmetyka Pielęgnacyjna';
+        }
+        let show25 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/4.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Włosy - Kosmetyka Pielęgnacyjna';
+        }
+        let show26 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/5.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Twarz - Kosmetyka Pielęgnacyjna';
+        }
+        let show27 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/6.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Dłonie - Kosmetyka Pielęgnacyjna';
+        }
+        let show28 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/7.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Dłonie i stopy - Kosmetyka Pielęgnacyjna';
+        }
+        let show29 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/8.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Stopy - Kosmetyka Pielęgnacyjna';
+        }
+        let show30 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/9.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Akcesoria';
+        }
+        let show31 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '<img src="resources/zielona_gora_2.html/pictures/10.jpg" width=100% height=50%>';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Urządzenia';
+        }
+        let show32 = () => {
+            let what1 = document.getElementById('script_image');
+            what1.innerHTML = '';
+            let what2 = document.getElementById('script_text');
+            what2.innerHTML = 'Pilniki / Bloki';
+        }
+
+    
+    </script>
+</html>
+
+

@@ -1,0 +1,146 @@
+/* Fonts */
+
+/* QuickSand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* BODY */
+
+body {
+    background-color: #FFB3FD;
+}
+
+/* index.html Style */
+
+.index_box {
+    background-color: #FFB3FD;
+    width: 1250px;
+    height: 100%;
+    background-repeat: none;
+    padding-top: 10%;
+    resize: none;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.index_title {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    text-align: center;
+    border-radius: 15px;
+    width: 40%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    box-shadow:20px 20px 50px 10px #BA90BC;
+}
+
+.index_linkbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 4%;
+    width: 30%;
+}
+
+.index_link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 5%;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:20px 20px 50px 10px #BA90BC;
+}
+
+/* Drogerie Style */
+
+.drogerie_box {
+    background-color: #FFB3FD;
+    width: 1650px;
+    height: 100%;
+    background-repeat: none;
+    padding-top: 10%;
+    resize: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.drogerie_map {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    width: 75%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px #BA90BC;
+    text-align: center;
+}
+
+.drogerie_back {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    width: 3%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px #BA90BC;
+    text-align: center;
+}
+
+.drogerie_szafka {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    width: 50%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px #BA90BC;
+}
+
+.drogerie_image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drogerie_text {
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.drogerie_help {
+    text-align: center;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px #BA90BC;
+}
